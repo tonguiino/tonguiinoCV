@@ -255,19 +255,6 @@ footer {
 
 	}
 
-	.form-container {
-display: flex;
-flex-direction: column;
-	}
-	.form-content {
-		width: 100%;
-	}
-
-	form input, textarea {
-		width: 100%;
-
-	}
-
 	main {
 		height: 700px;
 	}
@@ -291,4 +278,17 @@ flex-direction: column;
 		margin-top: 25px;
 	}
 
+	.form-container {
+		display: flex;
+		flex-direction: column;
+			}
+			.form-content {
+				width: 100%;
+			}
+		
+			form input, textarea {
+				width: 100%;
+		
+			}
+		
 }
